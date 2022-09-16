@@ -1,6 +1,17 @@
 let container = document.getElementById("container");
 let squares = 504;
-let colors = ["#CDB4DB", "#FFC8DD", "#FFAFCC", "#BDE0FE", "#A2D2FF"];
+let colors = [
+  "#7400B8",
+  "#6930C3",
+  "#5E60CE",
+  "#5390D9",
+  "#4EA8DE",
+  "#48BFE3",
+  "#56CFE1",
+  "#64DFDF",
+  "#72EFDD",
+  "#80FFDB",
+];
 
 for (let i = 0; i < squares; i++) {
   let square = document.createElement("div");
